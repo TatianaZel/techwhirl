@@ -1,0 +1,38 @@
+.text-block {
+    flex: 1;
+    background-color: #f7f7f9;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-block-title {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-block p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.text-block hr {
+    margin: 20px 0;
+}
+
+.text-block-footer {
+    margin-top: auto;
+}
+
+.text-block a {
+    color: #333;
+    font-size: 16px;
+}
+
+.text-block-icon {
+    margin-right: 8px;
+}

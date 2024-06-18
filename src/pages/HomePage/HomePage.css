@@ -1,0 +1,14 @@
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+@media (max-width: 767px) {
+    .home-container {
+        flex-direction: column;
+    }
+}
